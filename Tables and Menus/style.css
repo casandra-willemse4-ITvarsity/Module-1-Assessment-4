@@ -1,0 +1,27 @@
+body {
+    background-image: url("images/avatar.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+h1 {
+    color:white;
+}
+
+th {
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, rgb(0, 240, 160) 0%, rgb(136, 219, 245) 100%); /* the gradient */
+    color           :#000000;
+}
+table {
+    font-family: Helvetica, sans-serif;
+    border: 2px;
+    background-image: linear-gradient(to bottom, rgb(0, 255, 98) 0%, rgb(0, 38, 255) 100%); /* the gradient */
+    background-origin: border-box; /* set background to start from border-box */
+    border-spacing: 5px; /* space between each cell */
+}
+td {
+    background: white;
+    text-align: center;
+}
